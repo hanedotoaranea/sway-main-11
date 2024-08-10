@@ -1,1 +1,1 @@
-# livecd-beta-distribution-debian-11
+sway-debian-11
