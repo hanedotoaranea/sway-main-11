@@ -1,6 +1,7 @@
 breeze
 breeze-gtk-theme
 breeze-cursor-theme
+light
 clipman
 firefox-esr
 flatpak
@@ -35,6 +36,8 @@ sway
 swaybg
 sudo
 thunar
+swayidle
+mako
 waybar
 wdisplays
 wl-clipboard
@@ -46,3 +49,13 @@ xwayland
 ydotool
 zathura
 zathura-pdf-poppler
+playerctl
+wf-recorder
+slurp
+grim
+swappy 
+xdg
+xdg-user-dirs
+jq
+pacman
+fuse
