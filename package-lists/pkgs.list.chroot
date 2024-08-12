@@ -37,7 +37,6 @@ swaybg
 sudo
 thunar
 swayidle
-mako
 waybar
 wdisplays
 wl-clipboard
@@ -53,8 +52,6 @@ playerctl
 wf-recorder
 slurp
 grim
-swappy 
-xdg
 xdg-user-dirs
 jq
 pacman
