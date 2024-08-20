@@ -35,6 +35,7 @@ sway
 swaybg
 sudo
 thunar
+swayidle
 waybar
 wdisplays
 wl-clipboard
@@ -46,3 +47,10 @@ xwayland
 ydotool
 zathura
 zathura-pdf-poppler
+playerctlm
+slurp
+grim
+xdg-user-dirs
+jq
+pacman
+fuse
