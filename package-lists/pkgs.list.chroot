@@ -1,7 +1,6 @@
 breeze
 breeze-gtk-theme
 breeze-cursor-theme
-light
 clipman
 firefox-esr
 flatpak
@@ -48,8 +47,7 @@ xwayland
 ydotool
 zathura
 zathura-pdf-poppler
-playerctl
-wf-recorder
+playerctlm
 slurp
 grim
 xdg-user-dirs
