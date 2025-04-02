@@ -1,12 +1,8 @@
 breeze
 breeze-gtk-theme
 breeze-cursor-theme
-clipman
-fonts-font-awesome
 fonts-hack
 foot
-grim
-slurp
 htop
 imv
 nano
@@ -26,6 +22,5 @@ sway
 swaybg
 sudo
 thunar
-wl-clipboard
 xsettingsd
 xwayland
