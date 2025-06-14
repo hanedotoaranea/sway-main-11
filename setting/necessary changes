@@ -1,3 +1,5 @@
 Need to add user to group root in /etc/sudoers 
 user All=(ALL:ALL) ALL
-
+sudo apt update
+sudo apt install --install-recommends mesa-utils vulkan-tools mesa-vulkan-drivers
+sudo apt install vulkan-tools mesa-vulkan-drivers
