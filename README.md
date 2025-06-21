@@ -1,6 +1,7 @@
 Build based on Debian 11, aimed at minimal resource consumption.
 The main window manager is Sway.
-![image](https://github.com/user-attachments/assets/45620fbd-421b-4311-98a9-a260cc20a396)
+![20250622_02h04m12s_grim](https://github.com/user-attachments/assets/b70e3b3b-8489-4f3b-9954-16b4101f9b6f)
+
 # About
 I created this image for my first Asus X540Y laptop. 
 Since it is not very powerful, it will not be able to run Windows 10 or other Linux distributions properly, so I took the issue of choosing an operating system seriously and, having studied the topic of creating a custom Debian build, created this custom image. 
