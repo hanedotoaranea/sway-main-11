@@ -1,4 +1,3 @@
-
 input "type:touchpad" {
 tap enabled       #enables click-on-tap
 
@@ -13,3 +12,7 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5% && $r
 
 bindsym XF86MonBrightnessUp exec brightnessctl set +5% && notify-send "Яркость: $(brightnessctl get)%"
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%- && notify-send "Яркость: $(brightnessctl get)%"
+
+bar {
+    swaybar_command waybar
+}
