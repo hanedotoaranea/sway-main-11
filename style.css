@@ -1,0 +1,233 @@
+/* Keyframes */
+@keyframes blink-critical {
+    to {
+        background-color: @critical;
+    }
+}
+
+/* Colors (gruvbox) */
+@define-color black      #282828;
+@define-color red        #cc241d;
+@define-color green      #98971a;
+@define-color yellow     #d79921;
+@define-color blue       #458588;
+@define-color purple     #b16286;
+@define-color aqua       #689d6a;
+@define-color gray       #a89984;
+@define-color brgray     #928374;
+@define-color brred      #fb4934;
+@define-color brgreen    #b8bb26;
+@define-color bryellow   #fabd2f;
+@define-color brblue     #83a598;
+@define-color brpurple   #d3869b;
+@define-color braqua     #8ec07c;
+@define-color white      #ebdbb2;
+@define-color bg2        #504945;
+
+@define-color warning    @bryellow;
+@define-color critical   @red;
+@define-color mode       @black;
+@define-color unfocused  @bg2;
+@define-color focused    @braqua;
+@define-color inactive   @purple;
+@define-color sound      @brpurple;
+@define-color network    @purple;
+@define-color memory     @braqua;
+@define-color cpu        @green;
+@define-color temp       @brgreen;
+@define-color layout     @bryellow;
+@define-color battery    @aqua;
+@define-color date       @black;
+@define-color time       @white;
+
+/* Reset all styles */
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+/* The whole bar - МЕНЯЕМ НА НЕПРОЗРАЧНЫЙ */
+#waybar {
+    background: #282828; /* Заменяем rgba на solid цвет */
+    color: @white;
+    font-family: JetBrains Mono, Siji;
+    font-size: 10pt;
+}
+
+/* Все остальные стили остаются без изменений */
+#battery,
+#clock,
+#cpu,
+#language,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#backlight,
+#idle_inhibitor,
+#disk,
+#user,
+#mpris {
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+#mode,
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical.discharging {
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: blink-critical;
+    animation-duration: 1s;
+}
+
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning.discharging {
+    color: @warning;
+}
+
+#mode {
+    color: @white;
+    background: @mode;
+}
+
+#workspaces button {
+    padding-left: 2pt;
+    padding-right: 2pt;
+    color: @white;
+    background: @unfocused;
+}
+
+#workspaces button.visible {
+    color: @white;
+    background: @inactive;
+}
+
+#workspaces button.focused {
+    color: @black;
+    background: @focused;
+}
+
+#workspaces button.urgent {
+    color: @black;
+    background: @warning;
+}
+
+#workspaces button:hover {
+    background: @black;
+    color: @white;
+}
+
+#window {
+    margin-right: 35pt;
+    margin-left: 35pt;
+}
+
+#pulseaudio {
+    background: @sound;
+    color: @black;
+}
+
+#network {
+    background: @network;
+    color: @white;
+}
+
+#memory {
+    background: @memory;
+    color: @black;
+}
+
+#cpu {
+    background: @cpu;
+    color: @white;
+}
+
+#temperature {
+    background: @temp;
+    color: @black;
+}
+
+#language {
+    background: @layout;
+    color: @black;
+}
+
+#battery {
+    background: @battery;
+    color: @white;
+}
+
+#tray {
+    background: @date;
+}
+
+#clock.date {
+    background: @date;
+    color: @white;
+}
+
+#clock.time {
+    background: @time;
+    color: @black;
+}
+
+/* Custom arrows */
+#custom-arrow1 {
+    font-size: 11pt;
+    color: @time;
+    background: @date;
+}
+
+#custom-arrow2 {
+    font-size: 11pt;
+    color: @date;
+    background: @layout;
+}
+
+/* Дополнительные стили часов */
+#clock {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 16px;
+    background-color: #282a36; /* Заменяем rgba на solid цвет */
+    border-radius: 10px;
+    margin: 4px 0;
+}
+
+#custom-logout, #custom-reboot, #custom-shutdown {
+    padding: 0 10px;
+    color: #ffffff;
+    background: #ff0000;  /* Красный фон для кнопок */
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+#custom-logout:hover, #custom-reboot:hover, #custom-shutdown:hover {
+    background: #cc0000;
+}
+
+#custom-keyboard-layout {
+    padding: 0 10px;
+    background: @layout;
+    color: @black;
+    border-radius: 4px;
+    margin: 0 2px;
+}
+
+#custom-keyboard-layout:hover {
+    background: @bryellow;
+}
