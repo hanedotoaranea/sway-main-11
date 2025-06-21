@@ -25,8 +25,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-#
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_2048x1536.png fill
+output * bg /home/arachnoideaqinki/1.jpg fill
 #
 # Example configuration:
 #
@@ -203,22 +202,18 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-bar {
-    position top
+#bar {
+ #  position top
 
     # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+   # The default just shows the current date and time.
+  #  status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
 
-    colors {
-        statusline #ffffff
-        background #323232
-        inactive_workspace #323232 #323232 #5c5c5c
-    }
-}
+   # colors {
+    #    statusline #ffffff
+     #   background #323232
+      #  inactive_workspace #323232 #323232 #5c5c5c
+   # }
+#}
 
 include /etc/sway/config.d/*
-
-}
-
-
