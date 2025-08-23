@@ -1,7 +1,7 @@
-[![All releases](https://img.shields.io/github/v/release/hanedotoaranea/sway-main-11?include_prereleases&style=for-the-badge&label=All+releases)](https://github.com/hanedotoaranea/sway-main-11/releases)
-[![Repo size](https://img.shields.io/github/repo-size/hanedotoaranea/sway-main-11?style=for-the-badge)](https://github.com/hanedotoaranea/sway-main-11)
 Build based on Debian 11, aimed at minimal resource consumption.
 The main window manager is Sway.
+[![All releases](https://img.shields.io/github/v/release/hanedotoaranea/sway-main-11?include_prereleases&style=for-the-badge&label=All+releases)](https://github.com/hanedotoaranea/sway-main-11/releases)
+[![Repo size](https://img.shields.io/github/repo-size/hanedotoaranea/sway-main-11?style=for-the-badge)](https://github.com/hanedotoaranea/sway-main-11)
 ![20250622_02h04m12s_grim](https://github.com/user-attachments/assets/b70e3b3b-8489-4f3b-9954-16b4101f9b6f)
 # About
 I created this image for my first Asus X540Y laptop. 
