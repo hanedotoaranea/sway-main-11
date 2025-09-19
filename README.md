@@ -4,7 +4,7 @@ The main window manager is Sway.
 [![Repo size](https://img.shields.io/github/repo-size/hanedotoaranea/sway-main-11?style=for-the-badge)](https://github.com/hanedotoaranea/sway-main-11)
 
 ##Waybar Black 
-![Uploading 20250919_19h54m59s_grim.png…]()
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fcc0f081-d274-4bb3-89f8-1613b7b9eabf" />
 
 ##Waybar White 
 ![20250622_02h04m12s_grim](https://github.com/user-attachments/assets/b70e3b3b-8489-4f3b-9954-16b4101f9b6f)
